@@ -11,6 +11,6 @@ Version: 1.0.0
 Text Domain: twentysixteen-child
 */
 
-body {
+html body {
 	background: red;
 }
