@@ -30,7 +30,9 @@ Create a new Action Secret under the Settings tab of the GitHub repository for `
 <img width="400" alt="GitHub Actions Secrets" src="https://user-images.githubusercontent.com/14359078/193364037-758e1864-9a8a-45e6-aab9-411f056a2dee.png">
 
 
-The second Actions Secret needed is for `PRIVATE_KEY`. This will be the Private Key conterpart to Public Key set in your Flywheel Account:
+The second Actions Secret needed is for `PRIVATE_KEY`. This will be the Private Key conterpart to Public Key set in your Flywheel Account.
+
+Be sure that the SSH Key pair has been created using **RSA**.
 
 <img width="400" alt="Flywheel Account SSH Keys" src="https://user-images.githubusercontent.com/14359078/193363295-6fa863f3-d13a-4745-a81d-078270c93773.png">
 
