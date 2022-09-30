@@ -1,3 +1,1 @@
-# t2-theme-deploy
-
-change to trigger deploy to Flywheel
+# Flywheel Theme Deploy Example
