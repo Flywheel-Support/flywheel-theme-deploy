@@ -17,6 +17,7 @@ jobs:
         uses: easingthemes/ssh-deploy@main
         env:
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_PORT: 22 -o PubkeyAcceptedKeyTypes=+ssh-rsa
           REMOTE_USER: ${{ secrets.SSH_USER }}
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           TARGET: /www/wp-content/themes/
